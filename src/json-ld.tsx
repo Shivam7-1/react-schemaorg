@@ -130,7 +130,7 @@ export function helmetJsonLdProp<T extends Thing>(
   options?: JsonLdOptions
 ): {
   type: "application/ld+json";
-  innerHTML: string;
+  innerText: string;
 };
 export function helmetJsonLdProp(
   item: WithContext<Thing> | Graph,
