@@ -123,7 +123,7 @@ export function helmetJsonLdProp(
   options?: JsonLdOptions
 ): {
   type: "application/ld+json";
-  innerHTML: string;
+  innerText: string;
 };
 export function helmetJsonLdProp<T extends Thing>(
   item: WithContext<T>,
